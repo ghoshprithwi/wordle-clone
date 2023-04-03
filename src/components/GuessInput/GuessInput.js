@@ -13,7 +13,6 @@ function GuessInput({ updateGuessList, gameStatus }) {
 
 		updateGuessList(guess);
 
-		console.info({ guess });
 		setGuess("");
 	};
 	return (
